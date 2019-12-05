@@ -1,2 +1,2 @@
 # GAS
-referentie model voor gas netwerk
+IEC-CIM inspured reference model for the Gas Utility grid
