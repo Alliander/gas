@@ -8,7 +8,30 @@
      xmlns:obda="https://w3id.org/obda/vocabulary#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/netbeheer/referentiemodellen/GAS/Gridmanagement/core"/>
+    <owl:Ontology rdf:about="https://w3id.org/netbeheer/referentiemodellen/GAS/Gridmanagement/core">
+        <owl:imports rdf:resource="https://w3id.org/netbeheer/def/TC57CIM/IEC61970/Base/Core"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/netbeheer/referentiemodellen/GAS/Gridmanagement/core#3cf525a5_236b_4bca_a13c_3d7b1dcf3e1a -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/netbeheer/referentiemodellen/GAS/Gridmanagement/core#3cf525a5_236b_4bca_a13c_3d7b1dcf3e1a">
+        <rdfs:domain rdf:resource="https://w3id.org/netbeheer/referentiemodellen/GAS/Gridmanagement/core#OWLClass_213c36e8_224a_44ba_93a6_7f8ce7aae930"/>
+        <rdfs:range rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Terminal"/>
+        <rdfs:label xml:lang="nl">HeeftTerminal</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
