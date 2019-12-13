@@ -12,4 +12,4 @@ The purpose of this model is to facilitate information and data exchange concern
 The models have a persistent URL from at https://w3id.org/gas/. When you clone/fork the project you can open/edit the models locally. The can be opened in editing applications like Protégé (https://protege.stanford.edu/). They can also be called from within code (e.g. java or python) using respective OWL libraries
 
 # Help
-If you need help with using or contribute to the model. Please file an [issue](https://github.com/Alliander/gas/issues/new).
+If you need help with using or [contribute](https://github.com/Alliander/gas/blob/master/CONTRIBUTING.md) to the model. Please file an [issue](https://github.com/Alliander/gas/issues/new).
