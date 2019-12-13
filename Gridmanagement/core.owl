@@ -46,33 +46,21 @@
     
 
 
-    <!-- https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#213c36e8_224a_44ba_93a6_7f8ce7aae930 -->
+    <!-- https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Equipment -->
 
-    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#213c36e8_224a_44ba_93a6_7f8ce7aae930">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Equipment"/>
-        <rdfs:comment xml:lang="nl">De componenten van het gas systeem dat gas doorlaten ten behoeven van transport en distributie van gas</rdfs:comment>
-        <rdfs:comment xml:lang="en">The components of the gas infrastructure that transport or distribute gas. this is the gas equivalent of cim:ConductingEquipment</rdfs:comment>
-        <rdfs:label xml:lang="nl">PrimaireComponenten</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Equipment"/>
     
 
 
-    <!-- https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#726dcde9_aa71_4891_8e3b_d1b80d8cc7dc -->
+    <!-- https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer -->
 
-    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#726dcde9_aa71_4891_8e3b_d1b80d8cc7dc">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#IdentifiedObject"/>
-        <rdfs:comment xml:lang="nl">Het classificatie van drukniveau waar het net op berdeven wordt</rdfs:comment>
-        <rdfs:label xml:lang="nl">Drukniveau</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer"/>
     
 
 
-    <!-- https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#759e79fd_93c4_4b7f_9df9_e73eabdaac9c -->
+    <!-- https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#IdentifiedObject -->
 
-    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#759e79fd_93c4_4b7f_9df9_e73eabdaac9c">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer"/>
-        <rdfs:label xml:lang="nl">GRegelstraat</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#IdentifiedObject"/>
     
 
 
@@ -91,25 +79,40 @@
         <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer"/>
         <rdfs:comment xml:lang="en">A collection of equipment for purposes other than generation or utilization, through which gas in bulk is passed for the purposes of switching or modifying its characteristics.</rdfs:comment>
         <rdfs:label xml:lang="nl">GStationcomplex</rdfs:label>
+        <rdfs:label xml:lang="en">Gas Substation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Equipment -->
+    <!-- https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#213c36e8_224a_44ba_93a6_7f8ce7aae930 -->
 
-    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Equipment"/>
+    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#213c36e8_224a_44ba_93a6_7f8ce7aae930">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#Equipment"/>
+        <rdfs:comment xml:lang="nl">De componenten van het gas systeem dat gas doorlaten ten behoeven van transport en distributie van gas</rdfs:comment>
+        <rdfs:comment xml:lang="en">The components of the gas infrastructure that transport or distribute gas. this is the gas equivalent of cim:ConductingEquipment</rdfs:comment>
+        <rdfs:label xml:lang="nl">PrimaireComponenten</rdfs:label>
+    </owl:Class>
     
 
 
-    <!-- https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer -->
+    <!-- https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#726dcde9_aa71_4891_8e3b_d1b80d8cc7dc -->
 
-    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer"/>
+    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#726dcde9_aa71_4891_8e3b_d1b80d8cc7dc">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#IdentifiedObject"/>
+        <rdfs:comment xml:lang="nl">Het classificatie van drukniveau waar het net op berdeven wordt</rdfs:comment>
+        <rdfs:comment xml:lang="en">The pressure level at which a section of the grid is operated</rdfs:comment>
+        <rdfs:label xml:lang="nl">Drukniveau</rdfs:label>
+    </owl:Class>
     
 
 
-    <!-- https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#IdentifiedObject -->
+    <!-- https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#759e79fd_93c4_4b7f_9df9_e73eabdaac9c -->
 
-    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#IdentifiedObject"/>
+    <owl:Class rdf:about="https://w3id.org/netbeheer/referentiemodellen/gas/Gridmanagement/core#759e79fd_93c4_4b7f_9df9_e73eabdaac9c">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/netbeheer/referentiemodellen/IECCIM/TC57CIM/IEC61970/Base/Core#EquipmentContainer"/>
+        <rdfs:comment xml:lang="en">A section of pipes, regulators, filters, sensors and valves (usually above ground for easy access) used to regulate and transform presure within a Substation.</rdfs:comment>
+        <rdfs:label xml:lang="nl">GRegelstraat</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

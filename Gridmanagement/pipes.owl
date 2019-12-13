@@ -7,7 +7,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:obda="https://w3id.org/obda/vocabulary#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="https://w3id.org/gas/Gridmanagement/pipes"/>
+    <owl:Ontology rdf:about="https://w3id.org/gas/Gridmanagement/pipes">
+        <rdfs:comment xml:lang="nl">Ontologie die de primaire componenten van het gas net beschrijven</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology that describes the primary components of the gas grid</rdfs:comment>
+    </owl:Ontology>
     
 
 
@@ -31,8 +34,9 @@
     <!-- https://w3id.org/gas/Gridmanagement/pipes#a08df296_aea5_41ce_8b8b_ca92b78f1b20 -->
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#a08df296_aea5_41ce_8b8b_ca92b78f1b20">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#77cc5a2d_7cf1_4c37_97c3_ac98a6ddfedf"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#8ea3adee_d3de_4af9_ac2e_1e5c66c3009f"/>
         <rdfs:label xml:lang="nl">GVeiligheidsafslagklep</rdfs:label>
+        <rdfs:label xml:lang="en">Safety Non-return Valve</rdfs:label>
     </owl:Class>
     
 
@@ -41,6 +45,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#a52c46b4_6d97_4602_a7c3_5036155fcb53">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca"/>
+        <rdfs:comment xml:lang="en">A section of pipe of the same material and diameter. Possibly consisting of multiple pipe pieces and connection sleeves</rdfs:comment>
         <rdfs:label xml:lang="nl">GLeiding</rdfs:label>
     </owl:Class>
     
@@ -59,6 +64,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#c6037f04_a48c_4948_96ee_5f65fd2c8bd0">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca"/>
+        <rdfs:label xml:lang="en">Branch Saddle</rdfs:label>
         <rdfs:label xml:lang="nl">GAftakzadel</rdfs:label>
     </owl:Class>
     
@@ -77,6 +83,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#cc333827_aa5e_48a5_9b1b_f33a4db4f269">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca"/>
+        <rdfs:label xml:lang="en">Endcap</rdfs:label>
         <rdfs:label xml:lang="nl">GEindstuk</rdfs:label>
     </owl:Class>
     
@@ -87,6 +94,7 @@
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#cce44543_2d74_47a6_9a5b_4ad08b52b4ad">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca"/>
         <rdfs:label xml:lang="nl">GOvergangsstuk</rdfs:label>
+        <rdfs:label xml:lang="en">Transition piece</rdfs:label>
     </owl:Class>
     
 
@@ -95,6 +103,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#ce692af8_58aa_4569_8289_c06b3035dc08">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca"/>
+        <rdfs:comment xml:lang="en">Tee piece</rdfs:comment>
         <rdfs:label xml:lang="nl">GTStuk</rdfs:label>
     </owl:Class>
     
@@ -105,6 +114,7 @@
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#dda8391f_5835_43c1_a0f6_d6db9ff86ed6">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/core#213c36e8_224a_44ba_93a6_7f8ce7aae930"/>
         <rdfs:label xml:lang="nl">GRegelaar</rdfs:label>
+        <rdfs:label xml:lang="en">Pressure Regulator</rdfs:label>
     </owl:Class>
     
 
@@ -113,6 +123,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/core#213c36e8_224a_44ba_93a6_7f8ce7aae930"/>
+        <rdfs:label xml:lang="en">Connector</rdfs:label>
         <rdfs:label xml:lang="nl">GConnector</rdfs:label>
     </owl:Class>
     
@@ -132,6 +143,7 @@
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#09396914_03b0_4021_bd94_ff7c2aab0ddf">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#9abc7854_80a9_4df1_aaff_4af7ce9f8e75"/>
         <rdfs:label xml:lang="nl">GVeiligheidsafsluiter</rdfs:label>
+        <rdfs:label xml:lang="en">Safety Valve</rdfs:label>
     </owl:Class>
     
 
@@ -149,6 +161,7 @@
 
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#74759535_7c4b_42c4_9459_1f44aee1983f">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#e322d06d_8a89_41eb_9544_1525341c86ca"/>
+        <rdfs:label xml:lang="en">Cross Piece</rdfs:label>
         <rdfs:label xml:lang="nl">GKruisstuk</rdfs:label>
     </owl:Class>
     
@@ -168,6 +181,7 @@
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#8ea3adee_d3de_4af9_ac2e_1e5c66c3009f">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#77cc5a2d_7cf1_4c37_97c3_ac98a6ddfedf"/>
         <rdfs:label xml:lang="nl">GTerugslagklep</rdfs:label>
+        <rdfs:label xml:lang="en">Non-return Valve</rdfs:label>
     </owl:Class>
     
 
@@ -177,6 +191,7 @@
     <owl:Class rdf:about="https://w3id.org/gas/Gridmanagement/pipes#9abc7854_80a9_4df1_aaff_4af7ce9f8e75">
         <rdfs:subClassOf rdf:resource="https://w3id.org/gas/Gridmanagement/pipes#77cc5a2d_7cf1_4c37_97c3_ac98a6ddfedf"/>
         <rdfs:label xml:lang="nl">GAfsluiter</rdfs:label>
+        <rdfs:label xml:lang="en">Valve</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
